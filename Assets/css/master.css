@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/BgStazione.jpg")center no-repeat;
+  background-size: 133%;
+}
+
+#orario {
+  text-align: center;
+  font-size: 40px;
+  color: #FFF;
+  padding: 40px 0;
+}
+
+h1 + p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+div.biglietto {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.biglietto img.template {
+  width: 100%;
+  height: 100%;
+}
+
+div.biglietto ul li {
+  list-style: none;
+  font-size: 30px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+div.biglietto ul {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+div.biglietto img.logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
